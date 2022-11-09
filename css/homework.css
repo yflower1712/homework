@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "나눔고딕";
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+}
+a:link, a:visited{
+    color: gray;
+}
+a:hover{
+    color: black;
+}
+header{
+    padding: 25px;
+}
+header h1{
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+}
+nav{
+    padding: 20px;
+}
+nav ul{
+    word-spacing: 200px;
+}
+nav ul li{
+    display: inline;
+}
+section{
+    padding: 10px;
+}
+.advertise{
+    position: relative;
+}
+.communication{
+    position: absolute;
+    top: 5px;
+    left: 250px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.design{
+    position: absolute;
+    bottom: 365px;
+    left: 250px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.commerce{
+    position: absolute;
+    bottom: 365px;
+    right: 675px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+footer{
+    padding: 20px;
+}
+footer ul{
+    word-spacing: 200px;
+}
+footer ul li{
+    display: inline;
+}
